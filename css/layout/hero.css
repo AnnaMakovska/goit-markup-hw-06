@@ -9,14 +9,14 @@
       rgba(46, 47, 66, 0.7)
     ),
     -webkit-image-set(
-        url(../../images/images-mobile/mhero-office-mob.jpg) 1x,
-        url(../../images/images-mobile/mhero-office-mob@2x.jpg) 2x
-      ),
-      image-set(
-        url(../../images/images-mobile/mhero-office-mob.jpg) 1x,
-        url(../../images/images-mobile/mhero-office-mob@2x.jpg) 2x
+      url(../../images/images-tablet/tablhero-office.jpg) 1x,
+      url(../../images/images-tablet/tablhero-office@2x.jpg) 2x
+    ),
+    image-set(
+      url(../../images/images-tablet/tablhero-office.jpg) 1x,
+      url(../../images/images-tablet/tablhero-office@2x.jpg) 2x
       );
-      background-size: cover 320px 432px;
+      background-size: cover 768px 436px;
       background-repeat: no-repeat;
       background-position: center;
       max-width: 320px;
@@ -114,6 +114,11 @@
 }
     
 }
+
+/* @media screen and (min-resolution:192dpi) and (min-width: 1158px),
+screen and (min-resolution:2dppx) and (min-width: 1158px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
+{} */
 
 /* ========== MOBILE FORM ========== */
 
