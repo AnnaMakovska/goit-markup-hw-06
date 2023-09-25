@@ -1,4 +1,7 @@
-
+.page-header-container {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
 .navigation-list, .address-list, .address {
   display: none;
 }
@@ -111,6 +114,8 @@ margin-bottom: 48px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .navigation-list {
     display: flex;
