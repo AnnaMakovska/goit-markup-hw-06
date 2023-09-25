@@ -93,8 +93,8 @@ margin-bottom: 48px;
   gap: 40px;
 }
 .container-address-mobile {
-  position: absolute;
-  bottom: 40px;
+  margin-top: auto;
+  margin-bottom: 48px;
 }
 .blue-navigation-item {
   color: #404bbf;
