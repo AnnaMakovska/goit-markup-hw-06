@@ -13,6 +13,10 @@
     gap: 72px;
 
   }
+  .footer-logo {
+    display: inline-block;
+    text-align: center;
+  }
   .footer-form {
     display: flex;
     flex-direction: column;
@@ -98,7 +102,9 @@
     outline: transparent;
   }
   
-
+  .footer-second-wrapper, .footer-first-wrapper {
+    align-items: center;
+  }
 
 
 /* ========== TABLET ========== */
@@ -110,8 +116,7 @@
         align-items: flex-start;
         gap: 24px;
         row-gap: 72px;
-        padding-left: 108px;
-        padding-right: 164px;
+        width: 584px;
     }
     .footer-first-wrapper{
         width: 264px;
@@ -127,11 +132,10 @@
       .footer-text-social-media {
         text-align: left;
       }
-
-      }
       .footer-second-wrapper, .footer-first-wrapper {
         align-items: flex-start;
       }
+
       
     .footer-input, .footer-text {
         width: 264px;
@@ -140,6 +144,7 @@
     background-color: #31d0aa;
     outline: transparent;
   }
+}
 /* ========== DESKTOP========== */
 @media screen and (min-width: 1158px) {
     .footer-container {
@@ -150,10 +155,12 @@
         gap: 80px;
         padding-left: 0;
         padding-right: 0;
+        width: 1158px;
     }
     .footer-first-wrapper {
         margin-right: 40px;
     }
+    
 }
 
 /* .footer-text {
