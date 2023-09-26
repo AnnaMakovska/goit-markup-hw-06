@@ -73,6 +73,8 @@
             rgba(46, 47, 66, 0.7)
           ),
           url(../../images/images-tablet/tablhero-office.jpg);
+          padding-top: 112px;
+      padding-bottom: 112px;
       }
     }
     .hero-button:hover {
@@ -92,13 +94,15 @@
 }
 /* ========== DESKTOP========== */
 @media screen and (min-width: 1158px) {
-  .section-one-color {
+  .hero {
     background-image: linear-gradient(
         to bottom,
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../../images/images-desk/desk-hero-office.jpg);
+      padding-top: 188px;
+      padding-bottom: 188px;
   }
 
   .button-style {
@@ -115,6 +119,7 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../../images/images-desk/desk-hero-office@2x.jpg);
+     
   }
 
 .h-one {    
